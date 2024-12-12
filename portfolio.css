@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+header{background-color: rgb(248, 165, 63);
+    color: black;
+    padding: 10px 20px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin: 0 10px;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color: red;
+}
+/*hero section*/
+.hero{
+    height: 80vh;
+    background-image: url(images/FB_IMG_1690532487149-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    background-attachment: scroll;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.hero-content .btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: aliceblue;
+    background-color: rgb(245, 137, 5);
+    text-decoration: none;
+    border-radius: 5px;
+}
+/*about me*/
+.about{
+    padding: 50px 20px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(245, 137, 5);
+    color: black;
+    text-align: center;
+    padding:10px 5px;
+}
+.contact{
+    padding:80px 50px; 
+    text-align: center;
+    background-color:blanchedalmond;
+    height: 100vh;
+}
+#contact-form div{
+    padding: 30px;  
+}
+.project{
+    padding: 32px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project-list{
+display: flex;
+flex-wrap: wrap;
+gap: 16px;
+justify-content: center;
+align-items: center;
+}
+.proj{
+background-color: bisque;
+border: 1px solid black;
+border-radius: 8px;
+padding: 16px;
+box-shadow: 6px 6px 6px blanchedalmond;
+text-align: center;
+}
+
+
+
