@@ -1,10 +1,7 @@
 const easy = document.getElementById('easy');
 const words = ["Creative Designer", "Dynamic website"];
-const any = document.getElementById('any');
-const mean = ["My info", "My profile"];
 let wordindex = 0;
 function changeText(){
-    any.textContent = mean[wordindex], wordindex = (wordindex + 1) % words.length;
     easy.textContent = words[wordindex], wordindex = (wordindex + 1) % words.length;
 }
 setInterval(changeText,2000); 
